@@ -31,10 +31,6 @@ namespace ArdalisRating
 
             var policy = PolicySerializer.GetPolicyFromJson(policyJson);
 
-
-            // JsonConvert.DeserializeObject<Policy>(policyJson,
-            //new StringEnumConverter());
-
             switch (policy.Type)
             {
                 case PolicyType.Auto:
