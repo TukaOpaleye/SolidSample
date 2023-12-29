@@ -11,10 +11,11 @@ namespace ArdalisRating
     /// </summary>
     public class RatingEngine
     {
+        public ConsoleLogger Logger { get; set; } = new ConsoleLogger();
         public decimal Rating { get; set; }
         public void Rate()
         {
-            var Logger = new Logger();
+            var Logger = new ConsoleLogger();
 
             Logger.Log("Starting rate.");
 

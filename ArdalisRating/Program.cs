@@ -6,7 +6,7 @@ namespace ArdalisRating
     {
         static void Main(string[] args)
         {
-            var Logger = new Logger();
+            var Logger = new ConsoleLogger();
 
             Logger.Log("Ardalis Insurance Rating System Starting...");
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArdalisRating
 {
-    public class Logger
+    public class ConsoleLogger
     {
         public void Log(string message)
         {
